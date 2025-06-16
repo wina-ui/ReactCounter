@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/wina-ui/ReactCounter/static/css/main.e6c13ad2.css",
-    "main.js": "/wina-ui/ReactCounter/static/js/main.90062f2b.js",
-    "static/js/453.fcfa6845.chunk.js": "/wina-ui/ReactCounter/static/js/453.fcfa6845.chunk.js",
-    "index.html": "/wina-ui/ReactCounter/index.html",
-    "main.e6c13ad2.css.map": "/wina-ui/ReactCounter/static/css/main.e6c13ad2.css.map",
-    "main.90062f2b.js.map": "/wina-ui/ReactCounter/static/js/main.90062f2b.js.map",
-    "453.fcfa6845.chunk.js.map": "/wina-ui/ReactCounter/static/js/453.fcfa6845.chunk.js.map"
+    "main.css": "/ReactCounter/static/css/main.e6c13ad2.css",
+    "main.js": "/ReactCounter/static/js/main.4b660251.js",
+    "static/js/453.fcfa6845.chunk.js": "/ReactCounter/static/js/453.fcfa6845.chunk.js",
+    "index.html": "/ReactCounter/index.html",
+    "main.e6c13ad2.css.map": "/ReactCounter/static/css/main.e6c13ad2.css.map",
+    "main.4b660251.js.map": "/ReactCounter/static/js/main.4b660251.js.map",
+    "453.fcfa6845.chunk.js.map": "/ReactCounter/static/js/453.fcfa6845.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.90062f2b.js"
+    "static/js/main.4b660251.js"
   ]
 }
