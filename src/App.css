@@ -1,6 +1,48 @@
 .App {
   text-align: center;
 }
+.rainbow-button {
+  font-size: clamp(0.9rem, 2.5vw, 1.25rem); /* Responsive font size */
+  padding: 1em 2em; /* Scales with font size */
+  border: 2px solid black;
+  border-radius: 0.5em;
+  color: white;
+  text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
+  background: linear-gradient(
+      270deg,
+      var(--color1),
+      var(--color2),
+      var(--color3)
+      );
+  background-size: 400% 400%;
+  animation: redShift 2s linear infinite;
+  transition: transform 0.2s ease;
+  width: auto;
+  min-width: 30vw;
+  max-width: 80vw;
+  white-space: nowrap;
+}
+
+
+.rainbow-button:hover {
+  transform: scale(1.1);
+}
+
+@keyframes redShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 
 .App-logo {
   height: 40vmin;
